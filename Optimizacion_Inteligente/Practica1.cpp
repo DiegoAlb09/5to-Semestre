@@ -19,6 +19,7 @@ f(x) = 2x^2 + 16/x
 
 #include <iostream>
 #include <math.h>
+#include <string>
 
 using namespace std;
 
