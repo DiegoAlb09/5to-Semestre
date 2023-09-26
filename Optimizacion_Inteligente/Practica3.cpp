@@ -124,7 +124,6 @@ int calcularFitness(int individuo[8]) {
   return fitness;
 }
 
-
 void seleccionarPadres(int generacion[50][8], int fitness[50], int padres[25][8]) {
   // Ordenar los individuos de menor a mayor fitness
   for (int i = 0; i < 50; i++) {
@@ -138,12 +137,8 @@ void seleccionarPadres(int generacion[50][8], int fitness[50], int padres[25][8]
   // Mostrar los 25 individuos con menor fitness con su fitness
   for (int i = 0; i < 50; i++) {
     for (int j = 0; j < 8; j++) {
-      // cout << generacion[i][j] << " ";
       padres[i][j] = generacion[i][j];
     }
-    // cout << fitness[i] << " ";
-    // cout << i;
-    // cout << endl;
   }
 }
 
@@ -201,7 +196,6 @@ void menu() {
   cout << "Ingrese una opcion: ";
 }
 
-
 int main() {
   
   int opcion;
@@ -214,6 +208,7 @@ int main() {
       // Ejecutar algoritmo genetico
       int generacion[50][8]; // -> 50 individuos de 8 genes cada uno
       int fitness[50];
+      bool encontrado = false;
 
       // 1. Generar poblacion inicial
       generarPoblacionInicial(generacion);
@@ -227,7 +222,7 @@ int main() {
         fitness[i] = calcularFitness(generacion[i]);
         fitness_acum += fitness[i];
       }
-	  cout << "Puntuacion de la 1era generacion: " << fitness_acum << endl;
+	    cout << "Puntuacion de la 1era generacion: " << fitness_acum << endl;
 
       for (int i = 0; i < 50; i++) {
 
@@ -247,13 +242,16 @@ int main() {
         for (int i = 0; i < 50; i++) {
           fitness[i] = calcularFitness(generacion[i]);
           fitness_acum += fitness[i];
+          if (fitness[i] == 8) {
+            encontrado = true;
+          }
         }
-        if (fitness[i] == 8){
-          	break;
-		}
         cout << "Puntuacion generacion: " << fitness_acum << endl;
-	  }
-		cout << endl;
+        if (encontrado) {
+          break;
+        }
+	    }
+      cout << endl;
     } 
     else if (opcion == 2) {
       cout << "Saliendo del programa..." << endl;
