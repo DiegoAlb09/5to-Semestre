@@ -114,8 +114,8 @@ int calcularFitness(int individuo[8]) {
   }
 
   if (fitness == 8) {
-    cout << "Solucion encontrada" << endl;
-    // mostrar individuo
+    cout << "----Solucion encontrada----" << endl;
+    cout << "Individuo con fitness 8:" << endl;
     for (int i = 0; i < 8; i++) {
       cout << individuo[i] << " ";
     }          
@@ -199,6 +199,8 @@ void menu() {
 int main() {
   
   int opcion;
+  int numGeneraciones = 1000;
+
   do {
     menu();
     cin >> opcion;
@@ -212,7 +214,7 @@ int main() {
 
       // 1. Generar poblacion inicial
       generarPoblacionInicial(generacion);
-      cout << "Primera generacion" << endl;
+      cout << "----Primera generacion----" << endl;
       //Mostrar solo los primeros 5 individuos
       mostrarGeneracion(generacion);
       
@@ -223,8 +225,8 @@ int main() {
         fitness_acum += fitness[i];
       }
 	    cout << "Puntuacion de la 1era generacion: " << fitness_acum << endl;
-
-      for (int i = 0; i < 50; i++) {
+      cout << "----Ejecutando algoritmo genetico----" << endl;
+      for (int i = 0; i < numGeneraciones; i++) {
 
         // 3. Seleccionar a los padres
         // Se deben seleccionar los 25 individuos con un menor fitness
@@ -244,6 +246,8 @@ int main() {
           fitness_acum += fitness[i];
           if (fitness[i] == 8) {
             encontrado = true;
+            cout << endl;
+            mostrarGeneracion(generacion);
           }
         }
         cout << "Puntuacion generacion: " << fitness_acum << endl;
