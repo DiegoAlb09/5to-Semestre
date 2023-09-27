@@ -199,13 +199,17 @@ void menu() {
 int main() {
   
   int opcion;
-  int numGeneraciones = 1000;
+  int numGeneraciones;
 
   do {
     menu();
     cin >> opcion;
 
     if (opcion == 1) {
+      // Pedir el numero de generaciones 
+      cout << "Ingrese el numero de generaciones: ";
+      cin >> numGeneraciones;
+      cout << endl;
 
       // Ejecutar algoritmo genetico
       int generacion[50][8]; // -> 50 individuos de 8 genes cada uno
@@ -250,7 +254,7 @@ int main() {
             mostrarGeneracion(generacion);
           }
         }
-        cout << "Puntuacion generacion: " << fitness_acum << endl;
+        cout << "Puntuacion generacion "<< i << ": " << fitness_acum << endl;
         if (encontrado) {
           break;
         }
