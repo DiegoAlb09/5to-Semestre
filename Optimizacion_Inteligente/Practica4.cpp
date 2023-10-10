@@ -23,14 +23,8 @@ void menu(){
 }
 
 //Funcion para calcular la distancia entre las ciudades
-int distancia(int distancias[8][14],int ciudad1,int ciudad2){
-  for(int i = 0 ; i < 8 ; i++){
-    for(int j = 0 ; j < 14 ; j++){
-      if(i == ciudad1 && j == ciudad2){
-        return distancias[i][j];
-      }
-    }
-  }
+int calcularDistancia(int ciudad1x, int ciudad1y, int ciudad2x, int ciudad2y){
+  return sqrt(pow((ciudad1x-ciudad2x),2)+pow((ciudad1y-ciudad2y),2));
 }
 
 //funcion de enfriamiento
@@ -40,17 +34,9 @@ int enfriamiento(int t0,int a, int k){
 
 int main(){
   int opcion;
-  //Matriz de distancias
-  int distancias[8][14] ={
-                      {0,0,0,0,0,0,0,0,0,0,0,25,0,0},
-                      {16,0,0,17,0,0,12,0,0,23,0,0,0},
-                      {0,0,5,0,3,0,0,0,0,0,0,0,24,0},
-                      {9,0,0,6,0,0,0,20,0,0,0,0,0,0},
-                      {0,7,0,0,1,0,2,0,0,21,0,0,0,0},
-                      {8,0,0,4,0,11,0,0,0,0,0,0,0,0},
-                      {0,0,10,0,0,0,18,0,19,0,0,0,0,0},
-                      {15,0,0,14,0,13,0,0,0,0,22,0,0,0}
-                      };
+  //arreglo de las coordenadas de las ciudades
+  int ciudades[25][2] = {{5,4},{7,4},{5,6},{4,3},{2,4},{1,3},{1,5},{3,2},{6,3},{7,7},{6,1},
+                         {4,1},{1,1},{1,7},{4,7},{7,2},{9,2},{8,5},{10,4},{11,1},{10,7},{13,6},{12,8}};
   //Temperatura Inicial
   int t0 = 1000;
 
@@ -60,7 +46,10 @@ int main(){
     switch(opcion){
       case 1:
         cout << "Iniciando ejecucion..." << endl;
-        distancia(distancias,0,12);
+        //Calculo de la distancia entre las ciudades
+        int distancia;
+        distancia = calcularDistancia(ciudades[0][0],ciudades[0][1],ciudades[1][0],ciudades[1][1]);
+        cout << "Distancia entre las ciudades 1 y 2: " << distancia << endl;
         //Temperatura actual
         for (int i = 0; i < 2000;i++){
           int tK = enfriamiento(t0,0.8,i);
