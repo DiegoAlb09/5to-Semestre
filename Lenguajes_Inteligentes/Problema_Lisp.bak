@@ -1,0 +1,15 @@
+#lang racket
+
+(define (fibonaci x)
+  (cond
+    [(= x 0) 0]
+    [(= x 1) 1]
+    [else (+ (fibonaci (- x 1)) (fibonaci (- x 2)))]))
+
+(define (fibonaci2 x)
+  (define (fib-iter a b count)
+    (if (= count 0)
+        b
+        (fib-iter (+ a b) a (- count 1))))
+  (fib-iter 1 0 x))
+  
