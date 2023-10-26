@@ -1,0 +1,7 @@
+Ideas para proyectos futuros
+1.- Sudoku con Js Next
+2.- Tetris
+3.- Conjetura de Collatz
+
+
+

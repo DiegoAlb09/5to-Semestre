@@ -89,7 +89,7 @@ void mostrarSolucion(int solucion[26]) {
 
 /**
  * Funcion para generar la poblacion inicial
- * @param poblacionInicial Un arreglo de tamaño 26 que representa la poblacion inicial. El primer y
+ * @param poblacionInicial Un arreglo de tamaï¿½o 26 que representa la poblacion inicial. El primer y
  * ultimo elemento del arreglo se establecen en 1, y los elementos restantes se llenan con numeros del 2
  * al 25 en un orden aleatorio.
  * @param num El parametro "num" es un arreglo de enteros que contiene los numeros del 2 al 25.
