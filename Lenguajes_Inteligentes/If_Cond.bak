@@ -1,0 +1,9 @@
+#lang racket
+
+(define (sumarpares x)
+  (if (even? x)
+      (+ x (sumarpares (- x 2)))
+      (if (> x 1)
+          (sumarpares (- x 1))
+          0)))
+          
