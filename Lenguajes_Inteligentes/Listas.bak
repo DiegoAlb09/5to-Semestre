@@ -1,0 +1,37 @@
+#lang racket
+
+(define (obtener-cabecera lista)
+  (if (null? lista)
+      '()
+      (car lista)))
+
+(define (obtener-resto lista)
+  (if (null? lista)
+      '()
+      (cdr lista)))
+
+(define (agregar-a-cabecera elemento lista)
+  (cons elemento lista))
+
+(define mi-lista '(1 2 3 4 5))
+
+(display "Lista original: ")
+(display mi-lista)
+(newline)
+
+(display "Cabecera de la lista: ")
+(display (obtener-cabecera mi-lista))
+(newline)
+
+(display "Resto de la lista: ")
+(display (obtener-resto mi-lista))
+(newline)
+
+(define nuevo-elemento 0)
+(define mi-lista-actualizada (agregar-a-cabecera nuevo-elemento mi-lista))
+
+(display "Lista después de agregar el elemento ")
+(display nuevo-elemento)
+(display " a la cabecera: ")
+(display mi-lista-actualizada)
+(newline)

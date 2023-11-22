@@ -1,0 +1,848 @@
+Corvid Ver. 3.0.0
+2374407704654601586464103336539801330764426407008565721558328216315150671715362113887297460826641853608102291768635777473074277474623156602112841081185535375414320776110107708876016706525886039148062456712041407342940822178137040777440783051262055336156112287661720501186080083024681161743307306138240112010445424515
+
+
+
+
+False
+
+
+/CORVID/corvidsr
+
+
+
+False
+
+False
+255,255,255
+BCOLOR=255,255,255 FCOLOR=0,0,0 FONT=SANSERIF SIZE=12 STYLE=PLAIN POSITION=LEFT INDENT=5 CTRLW=25 CTRLR=5
+
+   OK   
+Back
+Restart
+True
+False
+ 5 
+Propiedad
+ 0 
+¿Propiedad a escoger?
+
+
+
+
+
+¿Propiedad a escoger?
+ 0 
+False
+False
+False
+False
+False
+False
+False
+
+False
+
+False
+ 0 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 2 
+ 0 
+ 50 
+ 3 
+Avaibility
+Avaibility
+
+
+
+
+
+
+False
+Performance
+Performance
+
+
+
+
+
+
+False
+No_hacer_nada
+No hacer nada
+
+
+
+
+
+
+False
+False
+False
+False
+False
+
+
+
+
+
+ 0 
+False
+ 0 
+False
+ 0 
+False
+
+False
+ 0 
+False
+ 0 
+False
+
+False
+ 0 
+ 0 
+False
+ 0 
+False
+ 0 
+False
+ 0 
+False
+False
+ 0 
+False
+ 0 
+False
+ 0 
+ 0 
+True
+ 0 
+
+ 0 
+ 1 
+ 0 
+ 1 
+ 1 
+
+
+ 0 
+ 0 
+ 0 
+ 0 
+ 0 
+dos
+ 0 
+dos
+
+
+
+
+
+
+ 0 
+False
+False
+False
+False
+False
+False
+False
+
+False
+
+False
+ 0 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 2 
+ 0 
+ 50 
+ 1 
+1
+1
+
+
+
+
+
+
+False
+False
+False
+False
+False
+
+
+
+
+
+ 1 
+False
+ 0 
+False
+ 0 
+False
+
+False
+ 0 
+False
+ 0 
+False
+
+False
+ 0 
+ 0 
+False
+ 0 
+False
+ 0 
+False
+ 0 
+False
+False
+ 0 
+False
+ 0 
+False
+ 0 
+ 0 
+True
+ 0 
+
+ 0 
+ 1 
+ 0 
+ 1 
+ 1 
+
+
+ 0 
+ 0 
+ 0 
+ 0 
+ 0 
+Caracteristicas
+ 0 
+¿Que problemas presentas?
+
+
+
+
+
+
+ 0 
+False
+False
+False
+False
+False
+False
+False
+
+False
+
+False
+ 0 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 2 
+ 0 
+ 50 
+ 3 
+El_sistema_prioriza_la_escalabilidad
+El sistema prioriza la escalabilidad
+
+
+
+
+
+
+False
+Van_a_usar_un_monitos_para_monitorear_el_estado_de_salud_de_varias_partes_del_sistema
+Van a usar un monitos para monitorear el estado de salud de varias partes del sistema
+
+
+
+
+
+
+False
+Algun_componente_que_espera_respuesta_de_otro_componente_se_execdio_el_tiempo_para_constestar
+Algun componente que espera respuesta de otro componente se execdio el tiempo para constestar
+
+
+
+
+
+
+False
+False
+False
+False
+False
+
+
+
+
+
+ 0 
+False
+ 0 
+False
+ 0 
+False
+
+False
+ 0 
+False
+ 0 
+False
+
+False
+ 0 
+ 0 
+False
+ 0 
+False
+ 0 
+False
+ 0 
+False
+False
+ 0 
+False
+ 0 
+False
+ 0 
+ 0 
+True
+ 0 
+
+ 0 
+ 2 
+ 0 
+ 1 
+ 1 
+
+
+ 0 
+ 0 
+ 0 
+ 0 
+ 0 
+No_Accion
+ 4 
+No Accion
+
+
+
+
+
+
+ 0 
+False
+False
+False
+False
+False
+False
+False
+
+False
+
+False
+ 0 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 2 
+ 0 
+ 50 
+ 0 
+False
+False
+False
+False
+
+
+
+
+
+ 0 
+False
+ 0 
+False
+ 0 
+False
+
+False
+ 0 
+False
+ 0 
+False
+
+False
+ 0 
+ 0 
+False
+ 0 
+False
+ 0 
+False
+ 0 
+False
+False
+ 0 
+False
+ 0 
+False
+ 0 
+ 0 
+True
+ 0 
+
+ 0 
+ 5 
+ 0 
+ 1 
+ 1 
+
+
+ 0 
+ 0 
+ 0 
+ 0 
+ 2 
+ 10002 
+ 10005 
+Tacticas_Ava
+ 0 
+Tacticas Ava
+
+
+
+
+
+
+ 0 
+False
+False
+False
+False
+False
+False
+False
+
+False
+
+False
+ 0 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 2 
+ 0 
+ 50 
+ 2 
+Detectar_Fallas
+Detectar Fallas
+
+
+
+
+
+
+False
+Recover_from_faults
+Recover from faults
+
+
+
+
+
+
+False
+False
+False
+False
+False
+
+
+
+
+
+ 0 
+False
+ 0 
+False
+ 0 
+False
+
+False
+ 0 
+False
+ 0 
+False
+
+False
+ 0 
+ 0 
+False
+ 0 
+False
+ 0 
+False
+ 0 
+False
+False
+ 0 
+False
+ 0 
+False
+ 0 
+ 0 
+True
+ 0 
+
+ 0 
+ 1 
+ 0 
+ 1 
+ 1 
+
+
+ 0 
+ 0 
+ 0 
+ 0 
+ 1 
+ 10006 
+ 2 
+Logic Block 1
+ 0 
+ 6 
+IS52:0
+ 3 
+ 3 
+-1 
+ 2 
+
+Propiedad = No_hacer_nada
+TE53:0
+ 2 
+-1 
+ 1 
+-1 
+
+[No_Accion] = 10
+IS56:0
+ 3 
+-1 
+-1 
+ 4 
+
+Propiedad = Avaibility
+IS63:0
+ 4 
+-1 
+ 3 
+ 5 
+
+Caracteristicas = El_sistema_prioriza_la_escalabilidad, Van_a_usar_un_monitos_para_monitorear_el_estado_de_salud_de_varias_partes_del_sistema, Algun_componente_que_espera_respuesta_de_otro_componente_se_execdio_el_tiempo_para_constestar
+TE64:0
+ 6 
+ 6 
+ 4 
+-1 
+
+[No_Accion] = 10
+TS65:0
+ 6 
+-1 
+ 4 
+-1 
+
+Tacticas_Ava = Detectar_Fallas
+
+ 0 
+Command Block 1
+ 1 
+ 2 
+C50:0
+ 2 
+ 2 
+-1 
+-1 
+
+DERIVE CONF
+C51:0
+ 2 
+-1 
+-1 
+-1 
+
+RESULTS
+
+ 0 
+ 0 
+ 0 
+Command Block 1
+ 0 
+ 0 
+
+

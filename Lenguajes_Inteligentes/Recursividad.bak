@@ -1,0 +1,11 @@
+#lang racket
+
+(define (factorial n)
+  (cond 
+    ((= n 0) 1)
+    (else (* n (factorial (- n 1))))))
+
+(define (suma-naturales x)
+  (cond
+    ((= n 0) 0)
+    (else (+ n (suma-naturales (- n 1))))))
